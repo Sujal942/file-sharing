@@ -4,8 +4,8 @@ import React from "react";
 
 const page = () => {
   return (
-    <div>
-      <UserButton afterSignOutUrl="/files" />
+    <div className="flex flex-col items-center justify-center mt-5">
+      <UserButton afterSignOutUrl="/" />
       {/* <SideNav /> */}
       <h1>Files</h1>
     </div>
